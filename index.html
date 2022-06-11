@@ -33,13 +33,6 @@
   float: left;
 }
 
-.btn_format {
-  background-color: #0069ff;
-  color: white;
-  border-radius: 25px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
-}
 
 .btn {
   padding-left: 65px;
@@ -53,6 +46,27 @@
   padding-left: 75px;
 }
 
+.button-11 {
+  margin-left: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6px 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  border-radius: 6px;
+  color: #3D3D3D;
+  border: none;
+  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-11:focus {
+  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+  outline: 0;
+}
+
 .avatar {
   width: 200px!important;
   height: 200px!important;
@@ -63,27 +77,33 @@
 }
 
 .title {
+  font-size: 18px;
   padding-left: 90px;
+  margin: auto;
 }
 
 .title_2 {
+  font-size: 18px;
   padding-left: 110px;
+  margin: auto;
 }
 
 .sub_title {
-  padding-left: 55px;
+  padding-left: 70px;
 }
 
 .sub_title_2 {
-  padding-left: 75px;
+  padding-left: 80px;
 }
 
 .location {
   padding-left: 80px;
+  font-weight: normal;
 }
 
 .location_2 {
-  padding-left: 90px;
+  padding-left: 100px;
+  font-weight: normal;
 }
 
 </style>
@@ -99,7 +119,7 @@
             <h5 class="sub_title"> Growth Team Specialist</h5>
             <h5 class="location"> Washington, USA</h5>
             <a class="btn" target="popup" onclick="window.open('','popup','width=600,height=600'); return false;">
-                <button class="btn_format">Schedule a call</button>
+                <button class="button-11" style="margin-left: 70px;">Schedule a call</button>
             </a>
         </div>
 
@@ -109,7 +129,7 @@
             <h5 class="sub_title"> Growth Team Specialist</h5>
             <h5 class="location_2"> Texas, USA</h5>
             <a class="btn" target="popup" onclick="window.open('https://calendly.com/truclieutruong/30min','popup','width=600,height=600'); return false;">
-                <button class="btn_format">Schedule a call</button>
+                <button class="button-11" style="margin-left: 70px;">Schedule a call</button>
             </a>
         </div>
 
@@ -119,7 +139,7 @@
             <h5 class="sub_title_2"> Growth Team Specialist</h5>
             <h5 class="location_2"> Hanoi, Vietnam</h5>
             <a class="btn_3" target="popup" onclick="window.open('','popup','width=600,height=600'); return false;">
-                <button class="btn_format">Schedule a call</button>
+                <button class="button-11">Schedule a call</button>
             </a>
         </div>
 
@@ -129,7 +149,7 @@
             <h5 class="sub_title_2"> Growth Team Specialist</h5>
             <h5 class="location_2"> California, USA</h5>
             <a class="btn_2" target="popup" onclick="window.open('https://calendly.com/nam-honhat96/30min','popup','width=600,height=600'); return false;">
-                <button class="btn_format">Schedule a call</button>
+                <button class="button-11">Schedule a call</button>
             </a>
         </div>
 
@@ -139,10 +159,11 @@
           <h5 class="sub_title_2"> Growth Team Lead</h5>
           <h5 class="location_2"> Florida, USA</h5>
           <a class="btn_2" target="popup" onclick="window.open('https://calendly.com/nga-le235/30min','popup','width=600,height=600'); return false;">
-              <button class="btn_format">Schedule a call</button>
+              <button class="button-11">Schedule a call</button>
           </a>
       </div>
     </div>
+
 </body>
 </html>
 
